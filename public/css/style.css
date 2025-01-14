@@ -1,0 +1,38 @@
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px; 
+    background-color: #111;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(20, 20px); 
+    grid-template-rows: repeat(25, 20px);   
+    gap: 1px;
+    width: 500px; 
+    height: 590px;
+  }
+  
+  
+  .grid div {
+    width: 20px;
+    height: 20px;
+    background-color: #333;
+    transition: background-color 0.3s;
+  }
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 21px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+  
